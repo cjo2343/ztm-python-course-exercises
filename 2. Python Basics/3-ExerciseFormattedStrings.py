@@ -24,7 +24,7 @@ print(sentence)
 name = 'Christian'
 age = 30
 
-print('My name is (name))
+print(f'My name is {name}, and I am {age} years old!')
 
 
 
@@ -50,5 +50,3 @@ print('My name is (name))
 name = 'Cindy'
 amount = 50
 print(f"Hello {name}, your balance is {amount}.")
-
-
