@@ -22,8 +22,25 @@ name = 'Sam'
 name += 'i'
 print(name)
 
-name = input('What is your name?')
-print(f'Hello, {name}!')
+#name = input('What is your name?')
+#print(f'Hello, {name}!')
 
 greet = 'hello'
 print(greet[0:len(greet)])
+
+string_method = 'let\'s flip som cards!'
+print(string_method.replace('flip', 'cast'))
+print(string_method)
+
+
+# print(string_method.upper())
+
+name = ['John', 'Hans', 'Mikkel']
+if name:
+    print(f"Hello, {name}")
+else:
+    print("You did not enter a name.")
+# Output: You did not enter a name. (Because an empty string is Falsy)
+
+
+
