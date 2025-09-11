@@ -3,17 +3,32 @@
 is_magician = False
 is_expert = True
  
-# # Check if magician and expert: "you are a master magician"
+# Check if magician and expert: "you are a master magician"
 if not is_magician and is_expert:
-     print("You are a master magician")
+    print('You are a master magician')
 
-# # Check if magician but not expert: "at least you're getting there"
+
+# Check if magician but not expert: "at least you're getting there"
+
 if not is_magician and not is_expert:
-     print("At least you\'re getting there.")
+    print('Test')
 
-# # Check if not a magician: "You need magic powers"
-#  if not is_magician:
-#     print("You need magic powers.")
+else: 
+    print('At least you\'re getting there')
+
+
+# Check if not a magician: "You need magic powers"
+if not is_magician:
+    print('You need magic powers!')
+
+is_old = True
+is_licensed = False
+
+if is_old and is_licensed:
+    print('You are old enough, and you have a valid driver license!')
+elif is_old and not is_licensed:
+    print('You are old enough, but you do not have a valid driver license!')
+
 
 
 # is_raining = True
