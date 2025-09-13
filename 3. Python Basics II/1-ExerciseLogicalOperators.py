@@ -4,30 +4,27 @@ is_magician = False
 is_expert = True
  
 # Check if magician and expert: "you are a master magician"
-if not is_magician and is_expert:
+if is_magician and is_expert:
     print('You are a master magician')
 
 
 # Check if magician but not expert: "at least you're getting there"
 
-if not is_magician and not is_expert:
-    print('Test')
-
-else: 
+elif not is_magician and is_expert:
     print('At least you\'re getting there')
 
 
 # Check if not a magician: "You need magic powers"
-if not is_magician:
+elif not is_magician:
     print('You need magic powers!')
 
-is_old = True
-is_licensed = False
+# is_old = True
+# is_licensed = False
 
-if is_old and is_licensed:
-    print('You are old enough, and you have a valid driver license!')
-elif is_old and not is_licensed:
-    print('You are old enough, but you do not have a valid driver license!')
+# if is_old and is_licensed:
+#     print('You are old enough, and you have a valid driver license!')
+# elif is_old and not is_licensed:
+#     print('You are old enough, but you do not have a valid driver license!')
 
 
 
@@ -53,3 +50,17 @@ elif is_old and not is_licensed:
 # elif is_old and not is_licensed:
 #     print('You are old enough, but you do not have a valid driver license!')
 # print('hej med dig!')
+
+print([] == [])
+print ('' == 1)
+
+age = ""
+while not age.isdigit():
+    age = input("Please enter your age as a number: ")
+
+print(f"Thank you! Your age is {age}.")
+
+for item in [1,2,3,4,5]:
+    for item2 in ['a','b','c']:
+        print(item, item2)
+        
