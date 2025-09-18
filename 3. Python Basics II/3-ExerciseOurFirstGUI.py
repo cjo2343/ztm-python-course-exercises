@@ -9,13 +9,53 @@ picture = [
   [0,0,0,1,0,0,0]
 ]
 
-
-
-#Answer:
-for image in picture:
-  for pixel in image:
-    if (pixel):
-      print('*', end ="")
+for item in picture:
+  for element in item:
+    if element:
+      print('*', end=(""))
     else:
-      print(' ', end ="")
+      print(' ', end=(""))
   print('')
+    
+for item in picture:
+  print(item[2])
+
+print('Hello, world!')
+print('Hello')
+print('world!')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# #Answer:
+# for image in picture:
+#   for pixel in image:
+#     if (pixel):
+#       print('*', end ="")
+#     else:
+#       print(' ', end ="")
+#   print('')

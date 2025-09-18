@@ -22,17 +22,38 @@ print(sum)
 
 
 
+a = list(range(5))
+b = list(range(10))
+print(a)
+print(b)
+
+a[2]= 100
+print(a)
+print(b)
+
+fruits = ["apple", "banana", "cherry"]
+for i, fruit in enumerate(fruits):
+    print(f"Index {i}: {fruit}")
+
+best_list = {'chris','john','hans'}
+for index, item in enumerate(best_list):
+    print(index, item)
+
+people = ["Alice", "Bob", "Charlie"]
+
+# In the first loop, the pair is (0, 'Alice'), the tuple output
+# Python unpacks it so that 'index' becomes 0 and 'name' becomes "Alice".
+for index, name in enumerate(people):
+    print(f"Ticket #{index} belongs to {name}")
 
 
 
 
 
 
+age = ''
 
-
-
-
-
+age.isdigit()
 
 
 
