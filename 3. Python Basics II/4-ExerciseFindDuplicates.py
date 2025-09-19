@@ -9,8 +9,11 @@ duplicates = []
 for element in some_list: 
     print(f'Checking {element}')
     if some_list.count(element) > 1:
-            duplicates.append(element)
-            print(f' Added {element} to the duplicate list!')
+            if element not in duplicates:
+                duplicates.append(element)  
+                print(f' Added {element} to the duplicate list!')
+            elif element in duplicates:
+                 print(f'The {element} is already in the list!')
 print(duplicates)
 
 
@@ -39,6 +42,11 @@ for number in [1, 3, 8, 2, 9]:
         break # Exit the loop now
     print(f"Checking {number}...")
 print('this line is the first outside the for loop - see the indentation')
+
+def greet(name):
+     return f"Hello, {name}"
+
+print(greet("Christian"))
 
 
 
